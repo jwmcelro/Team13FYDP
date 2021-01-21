@@ -1,6 +1,4 @@
 {
-    "name": "accesskit_fydp",
-    "description": "Team 13 FYDP",
     "require": {
         "phpunit/phpunit": "^9.5"
     }
