@@ -4,5 +4,5 @@
     "require": {
         "atk4/ui": "^1.7",
         "delight-im/auth": "^8.1"
-    },
+    }
 }
