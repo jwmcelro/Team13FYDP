@@ -50,6 +50,7 @@ html {
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
+	align-content: center;
 }
 
 body {
@@ -192,8 +193,13 @@ figure {
 }
 
 img {
-  vertical-align: middle;
-  border-style: none;
+	vertical-align: middle;
+	border-style: none;
+	position: static;
+	left: auto;
+	top: auto;
+	right: auto;
+	bottom: auto;
 }
 
 svg {
@@ -7243,8 +7249,9 @@ button.bg-dark:focus {
 }
 
 .align-items-center {
-  -ms-flex-align: center !important;
-  align-items: center !important;
+	-ms-flex-align: center !important;
+	align-items: center !important;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .align-items-baseline {
