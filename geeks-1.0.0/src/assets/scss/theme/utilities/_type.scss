@@ -1,0 +1,63 @@
+//
+// Extended from bootstrap
+//
+
+// Type scss
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: -0.022rem;
+}
+
+
+
+
+// Type display classes
+
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+    letter-spacing: -0.05rem;
+}
+
+
+
+// Font Weight
+
+.font-weight-semi-bold {
+    font-weight: $font-weight-semi-bold !important;
+}
+
+
+
+// Font Size
+
+.font-size-xs {
+    font-size: $font-size-xs !important;
+}
+.font-size-sm {
+    font-size: $font-size-sm !important;
+}
+.font-size-md {
+    font-size: $font-size-md !important;
+}
+.font-size-lg {
+    font-size: $font-size-lg !important;
+}
+.font-size-xl {
+    font-size: $font-size-xl !important;
+}
+
+
+
+
+// Lead
+
+.lead {
+    letter-spacing: -0.03rem;
+}
