@@ -1,0 +1,15 @@
+// Footer
+
+.footer {
+	color: $gray-700;
+	.nav {
+		.nav-link {
+			font-size: 0.875rem;
+			line-height: 1.5rem;
+			color: $gray-700;
+			&:hover {
+				color: $primary;
+			}
+		}
+	}
+}
