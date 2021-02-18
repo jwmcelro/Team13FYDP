@@ -476,11 +476,6 @@ mark,
   max-width: 100%;
   height: auto;
 }
-.img-displayed{
-  display: block;
-  margin-left: auto;
-  margin-right: auto 
-}
 
 .img-thumbnail {
   padding: 0.25rem;
