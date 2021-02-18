@@ -476,11 +476,6 @@ mark,
   max-width: 100%;
   height: auto;
 }
-.img-displayed{
-  display: block;
-  margin-left: auto;
-  margin-right: auto 
-}
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -2563,7 +2558,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
+  background-color: #249ADC;
   border-color: #007bff;
 }
 
