@@ -20,6 +20,7 @@
 <link href="./assets/libs/magnific-popup/dist/magnific-popup.css" rel="stylesheet" />
 <link href="./assets/libs/bootstrap-select/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="./assets/libs/@yaireo/tagify/dist/tagify.css" rel="stylesheet">
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
 
 
 <!-- Theme CSS -->
@@ -30,10 +31,10 @@
 <body>
   <!-- Navbar -->
   
-  <nav class="navbar navbar-expand-lg navbar-default ">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-default ">
 	<div class="container-fluid px-0">
 	   <a class="navbar-brand navbar-brand-centered" href="index.html"
-		  ><img src="./assets/images/AccessKit.svg" alt="AccessKit logo" width="200" class="img-fluid" 
+		  ><img src="./assets/images/AccessKit.svg" alt="AccessKit logo" width="125" class="img-fluid" 
 		  /></a>
 
 	   <!-- Mobile view nav wrap -->
@@ -61,7 +62,7 @@
 	   <!-- Collapse -->
 	   <div class="collapse navbar-collapse" id="navbar-default">
 		  <ul class="navbar-nav">
-			 <li class="nav-item">
+			 <li class="nav-item dropdown">
 				<a
 				   class="nav-link "
 				   id="navbarBrowse"
@@ -69,6 +70,7 @@
 				   >
 				Home
         </a>
+		
         <li class="nav-item dropdown">
 				<a
 				   class="nav-link "
@@ -77,7 +79,81 @@
 				   >
 				About
 				</a>
-			
+			</li>
+			<li class="nav-item dropdown">
+				<a
+				   class="nav-link dropdown-toggle"
+				   href="#"  
+				   id="navbarBrowse"
+				   data-toggle="dropdown"
+					aria-haspopup="true"
+					aria-expanded="false"
+					data-display="static"
+				   >
+				Content Types
+				</a>
+				<ul class="dropdown-menu">
+					<li>
+					   <a
+						  class="dropdown-item"
+						  href="./pages/texts-and-fonts.html"
+						  >
+					   Formatting</a>
+					</li>
+
+					<li>
+						<a
+							class="dropdown-item"
+							href="./pages/pictures.html"
+							>
+						Images</a>
+					</li>
+
+					<li>
+						<a
+						   class="dropdown-item"
+						   href="./pages/math.html"
+						   >
+						Equations</a>
+					 </li>
+
+					<li>
+						<a
+							class="dropdown-item"
+							href="./pages/tables.html"
+							>
+						Table</a>
+					</li>
+
+					<li>
+						<a
+							class="dropdown-item"
+							href="./pages/graphs.html"
+							>
+						Graphs</a>
+					</li>
+					<li>
+						<a
+							class="dropdown-item"
+							href="./pages/exporting.html"
+							>
+						Exporting</a>
+					</li>
+					<li>
+						<a
+							class="dropdown-item"
+							href="./pages/synchronours-lecture.html"
+							>
+						Synchronous Video</a>
+					</li>
+					<li>
+						<a
+						   class="dropdown-item"
+						   href="./pages/asynchronours-lecture.html"
+						   >
+						Asynchronous Video</a>
+					 </li>
+						</ul>
 	   </div>
 	  <a href="pages/checklist.html" class="btn btn-primary active" role="button" aria-pressed="true">Checklist</a>
 	</div>
@@ -132,17 +208,15 @@
 					
 					<!-- Card -->
                   <div class="card  mb-4 card-hover">
-                    <a href="pages/graphs.html" class="card-img-top"><img src="assets/images/graphs.jpg" alt=""
+                    <a href="pages/texts-and-fonts.html" class="card-img-top"><img src="assets/images/formatting.jpg" alt=""
                         class="card-img-top rounded-top"></a>
                     <!-- Card footer -->
                     <div class="card-footer">
                        <!-- Row -->
 					   <div class="row align-items-center no-gutters">
-						<div class="col ml-2">
-						  <span>Make graphs more accessible by adding alt text and eliminating colours.</span>
-						  <br>
-						  <br>
-						</div>
+						<a class="col ml-2 text-center" href="pages/texts-and-fonts.html">
+						  <span>Learn More</span>
+						</a>
 					  </div>
 					</div>
                   </div>
@@ -158,9 +232,9 @@
 						<div class="card-footer">
 						   <!-- Row -->
 						  <div class="row align-items-center no-gutters">
-							<div class="col ml-2">
-							  <span>Using high quality images and adding alt text will ensure pictures are accessible by all types of users.</span>
-							</div>
+							<a class="col ml-2 text-center" href="pages/pictures.html">
+							  <span>Learn More</span>
+							</a>
 						  </div>
 						</div>
 					  </div>
@@ -174,9 +248,9 @@
 						<div class="card-footer">
 						   <!-- Row -->
 						  <div class="row align-items-center no-gutters">
-							<div class="col ml-2">
-							  <span>By adding alt text all students and screen readers will be able to read and understand your equations.</span>
-							</div>
+							<a class="col ml-2 text-center" href="pages/math.html">
+							  <span>Learn More</span>
+							</a>
 						  </div>
 						</div>
 					  </div>
@@ -190,9 +264,9 @@
 						<div class="card-footer">
 						   <!-- Row -->
 						  <div class="row align-items-center no-gutters">
-							<div class="col ml-2">
-							  <span>Including alt text and eliminating colours ensure all students can understand tables.</span>
-							</div>
+							<a class="col ml-2 text-center" href="pages/tables.html">
+							  <span>Learn More</span>
+							</a>
 						  </div>
 						</div>
 					  </div>
@@ -202,15 +276,15 @@
 					<div class="col col-lg-3">
 						<!-- Card -->
 						<div class="card  mb-4 card-hover">
-							<a href="pages/texts-and-fonts.html" class="card-img-top"><img src="assets/images/formatting.jpg" alt=""
+							<a href="pages/graphs.html" class="card-img-top"><img src="assets/images/graphs.jpg" alt=""
 								class="card-img-top rounded-top"></a>
 							<!-- Card footer -->
 							<div class="card-footer">
 							   <!-- Row -->
 							  <div class="row align-items-center no-gutters">
-								<div class="col ml-2">
-								  <span>Choosing the correct fonts, colours, and formatting ensures legibility and readability for all students.</span>
-								</div>
+								<a class="col ml-2 text-center" href="pages/graphs.html">
+								  <span>Learn More</span>
+								</a>
 							  </div>
 							</div>
 						  </div>
@@ -224,11 +298,9 @@
 								<div class="card-footer">
 								   <!-- Row -->
 								  <div class="row align-items-center no-gutters">
-									<div class="col ml-2">
-									  <span>Properly exporting your content ensures that it remains in an accessible format.</span>
-									  <br>
-									  <br>
-									</div>
+									<a class="col ml-2 text-center" href="pages/exporting.html">
+									  <span>Learn More</span>
+									</a>
 								  </div>
 								</div>
 							  </div>
@@ -242,10 +314,9 @@
 									<div class="card-footer">
 									   <!-- Row -->
 									  <div class="row align-items-center no-gutters">
-										<div class="col ml-2">
-										  <span>Recording your lectures and adding closed captions ensures all students can participate.</span>
-										<br>
-										</div>
+										<a class="col ml-2 text-center" href="pages/synchronours-lecture.html">
+										  <span>Learn More</span>
+										</a>
 									  </div>
 									</div>
 								  </div>
@@ -259,11 +330,9 @@
 										<div class="card-footer">
 										   <!-- Row -->
 										  <div class="row align-items-center no-gutters">
-											<div class="col ml-2">
-											  <span>Uploading lecture transcripts and slide decks allows all students to learn.</span>
-											  <br>
-											  <br>
-											</div>
+											<a class="col ml-2 text-center" href="pages/asynchronours-lecture.html">
+											  <span>Learn More</span>
+											</a>
 										  </div>
 										</div>
 									  </div>

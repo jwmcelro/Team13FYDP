@@ -33,10 +33,10 @@
 <body>
   <!-- Page Content -->
   
-  <nav class="navbar navbar-expand-lg navbar-default ">
+  <nav class="navbar sticky-top navbar-expand-lg navbar-default ">
     <div class="container-fluid px-0">
        <a class="navbar-brand navbar-brand-centered" href="../index.html"
-        ><img src="../assets/images/AccessKit.svg" alt="AccessKit logo" width="200" class="img-fluid" 
+        ><img src="../assets/images/AccessKit.svg" alt="AccessKit logo" width="125" class="img-fluid" 
         /></a>
   
        <!-- Mobile view nav wrap -->
@@ -61,27 +61,102 @@
        <span class="icon-bar bottom-bar"></span>
        </button>
   
-       <!-- Collapse -->
-       <div class="collapse navbar-collapse" id="navbar-default">
-        <ul class="navbar-nav">
-         <li class="nav-item">
-          <a
-             class="nav-link "
-             id="navbarBrowse"
-             href="../index.html"
-             >
-          Home
-      </a>
-      <li class="nav-item dropdown">
-          <a
-             class="nav-link "
-             id="navbarBrowse"
-             href="about-us.html"
-             >
-          About
-          </a>
-        
-       </div>
+      <!-- Collapse -->
+	   <div class="collapse navbar-collapse" id="navbar-default">
+		  <ul class="navbar-nav">
+			 <li class="nav-item dropdown">
+				<a
+				   class="nav-link "
+				   id="navbarBrowse"
+				   href="index.html"
+				   >
+				Home
+        </a>
+		
+        <li class="nav-item dropdown">
+				<a
+				   class="nav-link "
+				   id="navbarBrowse"
+				   href="pages/about-us.html"
+				   >
+				About
+				</a>
+			</li>
+			<li class="nav-item dropdown">
+				<a
+				   class="nav-link dropdown-toggle"
+				   href="#"  
+				   id="navbarBrowse"
+				   data-toggle="dropdown"
+					aria-haspopup="true"
+					aria-expanded="false"
+					data-display="static"
+				   >
+				Content Types
+				</a>
+				<ul class="dropdown-menu">
+					<li>
+					   <a
+						  class="dropdown-item"
+						  href="texts-and-fonts.html"
+						  >
+					   Formatting</a>
+					</li>
+
+					<li>
+						<a
+							class="dropdown-item"
+							href="pictures.html"
+							>
+						Images</a>
+					</li>
+
+					<li>
+						<a
+						   class="dropdown-item"
+						   href="math.html"
+						   >
+						Equations</a>
+					 </li>
+
+					<li>
+						<a
+							class="dropdown-item"
+							href="tables.html"
+							>
+						Table</a>
+					</li>
+
+					<li>
+						<a
+							class="dropdown-item"
+							href="graphs.html"
+							>
+						Graphs</a>
+					</li>
+					<li>
+						<a
+							class="dropdown-item"
+							href="exporting.html"
+							>
+						Exporting</a>
+					</li>
+					<li>
+						<a
+							class="dropdown-item"
+							href="synchronours-lecture.html"
+							>
+						Synchronous Video</a>
+					</li>
+					<li>
+						<a
+						   class="dropdown-item"
+						   href="asynchronours-lecture.html"
+						   >
+						Asynchronous Video</a>
+					 </li>
+						</ul>
+	   </div>
       <a href="checklist.html" class="btn btn-primary active" role="button" aria-pressed="true">Checklist</a>
     </div>
     
@@ -89,25 +164,16 @@
 
 
   <!-- Page header -->
-  <div class="pt-lg-8 pb-lg-16 pt-8 pb-12 bg-primary">
+  <div class="pt-lg-6 pb-lg-8 pt-6 pb-10 bg-primary">
     <div class="container">
       <div class="row align-items-center">
-        <div class = "col-sm-10 col-xl-8 mr-11 ml-2 col-lg-7">   
-          
-            <h1 class="text-white display-4 font-weight-semi-bold">Making Pictures Accessible</h1>
-            <p class="text-white mb-6 lead">
-              Enter descriptions
+        <div class = "col-sm-12 col-xl-12 col-md-12 col-lg-12">   
+            <h1 class="text-white display-4 font-weight-semi-bold text-left">Images</h1>
+            <p class="text-white mb-6 lead text-left">
+              Use high quality images and add alt text to ensure that images are accessible for all types of users. 
             </p>         
           </div>
-           <div class="card col-lg-2 col-xl-3 offset-xl-0 offset-md-1 col-md-10 offset-sm-1 col-sm-10 offset-1 col-10">
-             <div class="card-body">
-               <h5 class="card-title text-center"> Contents</h5>
-               <div style="text-align:center">
-               <a href="#task1" class="card-link">Adding Alt Text To Pictures</a>  
-				 <br>
-				 </div>
-			 </div>
-           </div>
+           
         </div>
       </div>
     </div>
@@ -154,6 +220,7 @@
                       <div>
                         <div>
                     <h3 class="mb-3">Microsoft PowerPoint</h3>
+                     <h5 class="mb-3 text-left">This workflow includes the following task: <a href="#task1pp">alt text</a>.</h5>
                    <div class="mb-4">
                    	<hr class="my-3" />
                     <!-- Task with Single Picture -->
@@ -181,21 +248,21 @@
                       
                          <!-- powerpoint alt text -->
                         <div class = "container-fluid">
-                      <h4 id="task1">Adding Alt Text To Pictures</h4>
+                      <h4 id="task1pp">1. Adding Alt Text To Pictures</h4>
                        <h5>Ensures that graphs contain text descriptions that can be read by a screen reader to help visually impaired students.</h5>
                       
                       <p>
-                        &nbsp;&nbsp;&nbsp;&nbsp;Step 1: Right click the image and select "Edit Alt Text".
+                        Step 1: Right click the image and select "Edit Alt Text".
                       </p>
                        <div class="row justify-content-center">
-                        <img style='border:1px solid #95B0B7'src="../assets/images/adding alt text for pics word-ppt.png" alt="placeholder" width="976.8" height="516.8" class="center" >
+                        <img style='border:1px solid #95B0B7'src="../assets/images/adding alt text for pics word-ppt.png" alt="image displaying step 1" width="450" height="283" class="center" >
                       </div>
                      <br>
                      <br>
                       <p>
-                      	&nbsp;&nbsp;&nbsp;&nbsp;Step 2: If the picture is decorative, select "Mark as Decorative". Otherwise type 1-2 sentects to describe the image and its context OR select "Generate a Description For Me".
+                      	Step 2: If the picture is decorative, select "Mark as Decorative". Otherwise type 1-2 sentects to describe the image and its context OR select "Generate a Description For Me".
                       <div class="row justify-content-center">
-                        <img style='border:1px solid #95B0B7'src="../assets/images/table alt text word and ppt step 2.jpg" alt="placeholder" width="auto" height="auto" class="center" >
+                        <img style='border:1px solid #95B0B7'src="../assets/images/table alt text word and ppt step 2.jpg" alt="image displaying step 2" width="auto" height="auto" class="center" >
                     </div> 
                   </div>
                   </div>
@@ -208,26 +275,27 @@
                     <!-- Word alt text -->
                     <div>
                       <h3 class="mb-3">Microsoft Word</h3>
+                       <h5 class="mb-3 text-left">This workflow includes the following task: <a href="#task1word">alt text</a>.</h5>
                       <div class="mb-4">
                         <hr class="my-3" />
                           <div class = "container-fluid">
                           <div class = "container-fluid">
-                      <h4 id="task1">Adding Alt Text To Pictures</h4>
+                      <h4 id="task1word">1. Adding Alt Text To Pictures</h4>
                        <h5>Ensures that graphs contain text descriptions that can be read by a screen reader to help visually impaired students.</h5>
                       
                       <p>
-                        &nbsp;&nbsp;&nbsp;&nbsp;Step 1: Right click the image and select "Edit Alt Text".
+                        Step 1: Right click the image and select "Edit Alt Text".
                       </p>
                        <div class="row justify-content-center">
-                        <img style='border:1px solid #95B0B7'src="../assets/images/adding alt text for pics word-ppt.png" alt="placeholder" width="976.8" height="516.8" class="center" >
+                        <img style='border:1px solid #95B0B7'src="../assets/images/adding alt text for pics word-ppt.png" alt="image displaying step 1" width="450" height="283" class="center" >
                       </div>
                      <br>
                      <br>
                       <p>
-                      	&nbsp;&nbsp;&nbsp;&nbsp;Step 2: If the picture is decorative, select "Mark as Decorative". Otherwise type 1-2 sentects to describe the image and its context OR select "Generate a Description For Me".
+                      	Step 2: If the picture is decorative, select "Mark as Decorative". Otherwise type 1-2 sentects to describe the image and its context OR select "Generate a Description For Me".
                       </p>
                       <div class="row justify-content-center">
-                        <img style='border:1px solid #95B0B7'src="../assets/images/table alt text word and ppt step 2.jpg" alt="placeholder" width="auto" height="auto" class="center" >
+                        <img style='border:1px solid #95B0B7'src="../assets/images/table alt text word and ppt step 2.jpg" alt="image displaying step 2" width="auto" height="auto" class="center" >
                     </div> 
                   </div>
                   </div>
@@ -239,26 +307,27 @@
                     <!-- Slides alt text -->
                     <div>
                       <h3 class="mb-3">Google Slides</h3>
+                       <h5 class="mb-3 text-left">This workflow includes the following task: <a href="#task1slides">alt text</a>.</h5>
                       <div class="mb-4">
                         <hr class="my-3" />
                           <div class = "container-fluid">
                           <div class = "container-fluid">
-                      <h4 id="task1">Adding Alt Text To Pictures</h4>
+                      <h4 id="task1slides">1. Adding Alt Text To Pictures</h4>
                        <h5>Ensures that graphs contain text descriptions that can be read by a screen reader to help visually impaired students.</h5>
                       
                       <p>
-                        &nbsp;&nbsp;&nbsp;&nbsp;Step 1: Right click the image and select "Edit Alt Text".
+                        Step 1: Right click the image and select "Edit Alt Text".
                       </p>
                        <div class="row justify-content-center">
-                        <img style='border:1px solid #95B0B7'src="../assets/images/adding alt text for pics slides.png" alt="placeholder" width="977.6" height="392.8" class="center" >
+                        <img style='border:1px solid #95B0B7'src="../assets/images/adding alt text for pics slides.png" alt="image displaying step 1" width="450" height="180" class="center" >
                       </div>
                      <br>
                      <br>
                       <p>
-                      	&nbsp;&nbsp;&nbsp;&nbsp;Step 2: Type 1-2 sentects to describe the image and its context.
+                      	Step 2: Type 1-2 sentects to describe the image and its context.
                       </p>
                       <div class="row justify-content-center">
-                        <img style='border:1px solid #95B0B7'src="../assets/images/adding alt text for pics slides & docs step 2.jpg" alt="placeholder" width="auto" height="auto" class="center" >
+                        <img style='border:1px solid #95B0B7'src="../assets/images/adding alt text for pics slides & docs step 2.jpg" alt="image displaying step 2" width="auto" height="auto" class="center" >
                     </div> 
                   </div>
                   
@@ -273,26 +342,27 @@
                     <!-- Docs alt text -->
                     <div>
                       <h3 class="mb-3">Google Docs</h3>
+                      <h5 class="mb-3 text-left">This workflow includes the following task: <a href="#task1docs">alt text</a>.</h5>
                       <div class="mb-4">
                         <hr class="my-3" />
                           <div class = "container-fluid">
                           <div class = "container-fluid">
-                      <h4 id="task1">Adding Alt Text To Pictures</h4>
+                      <h4 id="task1docs">1. Adding Alt Text To Pictures</h4>
                        <h5>Ensures that graphs contain text descriptions that can be read by a screen reader to help visually impaired students.</h5>
                       
                       <p>
-                        &nbsp;&nbsp;&nbsp;&nbsp;Step 1: Right click the image and select "Edit Alt Text".
+                        Step 1: Right click the image and select "Edit Alt Text".
                       </p>
                        <div class="row justify-content-center">
-                        <img style='border:1px solid #95B0B7'src="../assets/images/adding alt text for pics docs.png" alt="placeholder" width="752.8" height="498.4" class="center" >
+                        <img style='border:1px solid #95B0B7'src="../assets/images/adding alt text for pics docs.png" alt="image displaying step 1" width="450" height="300" class="center" >
                       </div>
                      <br>
                      <br>
                       <p>
-                      	&nbsp;&nbsp;&nbsp;&nbsp;Step 2: Type 1-2 sentects to describe the image and its context.
+                      	Step 2: Type 1-2 sentects to describe the image and its context.
                       </p>
                       <div class="row justify-content-center">
-                        <img style='border:1px solid #95B0B7'src="../assets/images/adding alt text for pics slides & docs step 2.jpg" alt="placeholder" width="auto" height="auto" class="center" >
+                        <img style='border:1px solid #95B0B7'src="../assets/images/adding alt text for pics slides & docs step 2.jpg" alt="image displaying step 2" width="auto" height="auto" class="center" >
                     </div> 
                   </div>
                   
